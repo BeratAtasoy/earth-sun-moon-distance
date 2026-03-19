@@ -14,24 +14,7 @@ This simulator actually mimics real orbital mechanics. Since planets don't move 
 Basically, the code takes a simple calendar date and turns it into a precise point on an astronomical space wave.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Once the date is verified, the simulator uses periodic wave equations and cosine functions to calculate and display the exact celestial distances.
-
 ### How to Run
 ```bash
 python solarearth.py
-
-Basicly it calculates the distance between Earth-Sun and Earth-Moon according to given input dates. Code is impervious to invalid inputs. Years can only be between 1-2100, month values cannot be bigger than 12, especially days are arrenged fluently according to given month input, even the leap years are calculated and month February is thought additionally. Also, values less than 0 and 0 is blocked. Then, periodic wave equations and cosine functions is used to get the exact celestial distances.
+```
